@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/user_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/gray"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/user_message_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        tools:text="12:30" />
+    <ImageView
+        android:id="@+id/User"
+        android:src="@drawable/img_2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="4dp"
+        android:background="@drawable/img_bg1"
+        android:clipToOutline="true"
+        android:contentDescription="@string/bot_avatar"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/user_message_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="U" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_message_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="8dp"
+        app:cardBackgroundColor="#E0E0E0"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_time_text">
+
+        <TextView
+            android:id="@+id/user_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="260dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="This is a sample user message that might span multiple lines." />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
