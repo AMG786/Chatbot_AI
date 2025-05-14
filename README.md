@@ -33,8 +33,8 @@ A fully-featured Android chat application that integrates with the powerful Llam
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="![Screenshot_1747213954](https://github.com/user-attachments/assets/e0bd483f-915f-4670-aed7-b628b2f004bc)" width="30%" alt="Login Screen">
-  <img src="![Screenshot_1747214061](https://github.com/user-attachments/assets/1e6352bb-0b8c-43bb-b470-bef3a66942ff)" width="30%" alt="Chat Interface"> 
+  <img src="https://github.com/user-attachments/assets/e0bd483f-915f-4670-aed7-b628b2f004bc" width="30%" alt="Login Screen">
+  <img src="https://github.com/user-attachments/assets/1e6352bb-0b8c-43bb-b470-bef3a66942ff" width="30%" alt="Chat Interface"> 
 </div>
 
 ## 🚀 Installation
