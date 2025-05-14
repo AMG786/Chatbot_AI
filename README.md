@@ -26,7 +26,7 @@ A fully-featured Android chat application that integrates with the powerful Llam
 ### Technical Highlights
 - 🌐 Retrofit for network operations
 - 🔄 Kotlin Coroutines for asynchronous tasks
-- 🏗️ MVVM architecture pattern
+- 🏗️ Single Activity Architechure
 - 🧩 Fragment-based navigation
 - 🛡️ Comprehensive error handling
 
